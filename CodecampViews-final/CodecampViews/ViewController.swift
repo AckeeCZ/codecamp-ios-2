@@ -20,9 +20,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        myView.backgroundColor = .redColor()
+        myView.backgroundColor = .red
         myView.layer.cornerRadius = 10
-        myView.layer.borderColor = UIColor.blackColor().CGColor
+        myView.layer.borderColor = UIColor.black.cgColor
         myView.layer.borderWidth = 2
         
         
